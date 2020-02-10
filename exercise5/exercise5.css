@@ -1,0 +1,44 @@
+#lightblue {
+  background-color: #859FF5;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+#white {
+  color: white;
+}
+
+#blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  color: red;
+}
+
+#fd {
+  color: yellow;
+  background-color: green;
+}
+
+#lightgreen {
+  background-color: #6DE38F;
+}
+
+#purple {
+  color: purple;
+}
