@@ -1,0 +1,33 @@
+header {
+  color: red;
+  background-color: black;
+}
+
+a:link {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+#once {
+  color: blue;
+}
+
+.classes {
+  color: red;
+}
+
+#art {
+  color: blue;
+}
+
+#span {
+  color: white;
+  background-color: black;
+}

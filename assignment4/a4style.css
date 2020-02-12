@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+#center {
+  text-align: center;
+}
+
+header {
+  color: orange;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+.imgbox {
+  border: 10px solid #000000;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+
+body {
+  background-image: url(earth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#justice {
+  text-align: justify; 
+}
