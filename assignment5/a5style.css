@@ -1,0 +1,69 @@
+body {
+  font-family: Impact, sans-serif;
+  background-color: #FBD336;
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+
+}
+
+.purple {
+  color: #933D9D;
+  font-size: 20px;
+}
+
+.purplebottom {
+  width: 600px;
+  color: #933D9D;
+  font-size: 20px;
+  border-bottom: 3px solid #933D9D;
+  font-family: Impact, Charcoal, sans-serif;
+  font-style: bold;
+  padding: 15px;
+}
+
+#bold {
+  width: 600px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 120px;
+  text-align: center;
+  border-top: 3px solid #933D9D;
+  color: red;
+  line-height: 110px;
+  margin: 5px;
+  margin-bottom: 510px;
+
+}
+
+.purplespace {
+  color: #933D9D;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.big {
+  font-size: 25px;
+}
+
+.pinkbig {
+  color: #F829ED;
+}
+
+.pink {
+  color: #F829ED;
+  font-size: 30px;
+}
+
+#smol {
+  color: #F829ED;
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+}
