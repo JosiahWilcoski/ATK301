@@ -1,0 +1,94 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 0px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 200px; /* This is for the dummy columns, replace or delete */
+}
+
+#wrapper2 {
+  grid-column: span 12;
+  background-image: url(galaxyimage.jpg);
+  color: black;
+  padding: 20px;
+  margin: 0px;
+  border-bottom: 5px solid black;
+}
+
+
+h1 {
+  display: inline-block;
+  padding: 25px;
+  grid-column: span 4;
+  grid-row: 100px;
+  color: white;
+  font-family: helvetica;
+  font-weight: normal;
+  background-color: black;
+  background-position: center;
+}
+
+nav {
+  grid-column: span 2;
+}
+
+#navigation {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: helvetica;
+  font-weight: normal;
+  display: block;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em;
+  color: black;
+  text-decoration: none;
+  margin: 5px
+}
+
+#images {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em;
+  margin: 15px
+}
+
+main {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 50px;
+  grid-column: span 10;
+  background-image: url(pastelimage.jpg);
+  color: white;
+  padding: 10px;
+  margin: 25px;
+  margin-left: 75px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
