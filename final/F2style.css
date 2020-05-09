@@ -1,0 +1,87 @@
+body {
+  background-image: url(1061.png);
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 5fr auto;
+  font-family: monaco;
+}
+
+h1 {
+  font-family: monaco;
+  font-weight: normal;
+  grid-column: span 5;
+  background-color: white;
+  color: #41b3bf;
+  padding: 20px;
+}
+
+#icon {
+  width: 150px;
+  float: right;
+}
+
+#image {
+  width: 340px;
+  float: left;
+  padding: 1em;
+}
+
+nav {
+  grid: span 2;
+  font-family: monaco;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  width: 200px;
+}
+
+#longer {
+  display: block;
+  border: 0px;
+  border-bottom: 575px solid white;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:link {
+  display: block;
+  background-color: #41b3bf;
+  border: 10px solid white;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:visited {
+  display: block;
+  background-color: #41b3bf;
+  border: 10px solid white;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  display: block;
+  background-color: #348491;
+  border: 10px solid white;
+  padding: 1em;
+  padding-left: 1.5em;
+  color: white;
+  text-decoration: none;
+}
